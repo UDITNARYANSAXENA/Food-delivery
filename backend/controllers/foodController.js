@@ -1,7 +1,7 @@
 import fs from 'fs'
 import foodModel from '../models/foodModel.js'
 
-//add food item
+
 
 const addFood = async (req,res) =>{
 
@@ -24,7 +24,7 @@ const addFood = async (req,res) =>{
     }
 }
 
-// All food list
+
 
 const listFood = async (req,res) =>{
     try {
@@ -36,7 +36,7 @@ const listFood = async (req,res) =>{
     }
 }
 
-// remove food item
+
 
 const removeFood = async (req,res)=>{
     try {
