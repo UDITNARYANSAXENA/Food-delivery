@@ -13,9 +13,12 @@ const List = ({url}) => {
     if(response.data.success){
       setList(response.data.data)
     }
+
     else{
       toast.error("Error")
+
     }
+
   }
 
   const removeFood = async (foodId) =>{
@@ -41,6 +44,8 @@ const List = ({url}) => {
             <b>Category</b>
             <b>Price</b>
             <b>Action</b>
+
+            
         </div>
         {list.map((item,index)=>{
           return(
